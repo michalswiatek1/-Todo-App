@@ -1,0 +1,16 @@
+.todo {
+  margin: 0.5rem;
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.todoLi {
+  border: 2px solid darkslategrey;
+  border-radius: 15px;
+  flex: 1;
+  background-color: rgb(227, 234, 241);
+  text-align: center;
+}

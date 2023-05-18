@@ -1,10 +1,10 @@
-import styles from './Add.module.css';
+import styles from './Title.module.css';
 
-const Add = () => {
+const Title = () => {
   return (
     <div className={styles.add}>
       <h1>TODO LIST</h1>
     </div>
   );
 };
-export default Add;
+export default Title;

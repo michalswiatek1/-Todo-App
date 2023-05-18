@@ -1,0 +1,40 @@
+.inputAdd {
+  width: 80%;
+  height: 40px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid darkslategrey;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.divSelect {
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.inputSelect {
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+.inputSelect:checked {
+  border: 6px solid black;
+}
+
+.labelSelect {
+  margin-right: 15px;
+  line-height: 32px;
+}
